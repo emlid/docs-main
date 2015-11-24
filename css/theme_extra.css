@@ -327,21 +327,28 @@ nav.stickynav a:hover, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a
 span.Navio {
   display: inline-block;
   margin: 20px;
-  width: 300px;
-  height: 300px;
-  opacity: 0.7;
+  width: 180px;
+  height: auto;
+  opacity: 0.9;
+  position: relative;
 }
 
 span.Reach {
   display: inline-block;
   margin: 20px;
-  width: 300px;
-  height: 285px;
-  opacity: 0.7;
+  width: 100px;
+  height: auto;
+  opacity: 0.9;
+  vertical-align: bottom;
 }
 
-span img {
-  width: 100%;
+.Navio img {
+  width: auto;
+  height: auto;
+}
+
+.Reach img {
+  width: 77px;
   height: auto;
 }
 
@@ -360,4 +367,15 @@ div.images {
 	span.Reach, span.Navio{
     opacity: 1;
   }
+  span.images-2 {
+    left: 0;
+  }
+}
+
+h3 {
+  position: relative;
+  top: 10pt;
+}
+h1 {
+  margin-bottom: 20pt;
 }
