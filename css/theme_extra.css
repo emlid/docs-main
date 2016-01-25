@@ -333,6 +333,15 @@ span.Navio {
   position: relative;
 }
 
+span.Navio_plus {
+  display: inline-block;
+  margin: 20px;
+  width: 180px;
+  height: auto;
+  opacity: 0.9;
+  position: relative;
+}
+
 span.Reach {
   display: inline-block;
   margin: 20px;
@@ -345,14 +354,22 @@ span.Reach {
 .Navio img {
   width: auto;
   height: auto;
+  margin-bottom: -20px;
+}
+
+.Navio_plus img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 11px;
 }
 
 .Reach img {
   width: 77px;
   height: auto;
+  margin-bottom: 11px;
 }
 
-span.Reach:hover, span.Navio:hover{
+span.Reach:hover, span.Navio:hover, span.Navio_plus:hover{
   opacity: 1;
 }
 
