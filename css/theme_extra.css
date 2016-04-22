@@ -10,7 +10,8 @@ body {
 
 h3, h4, h5, h6 {
     color: #2980b9;
-    font-weight: 300
+    font-weight: 300;
+    font-family: "Roboto Condensed" !important;
 }
 
 /*
@@ -395,4 +396,5 @@ h3 {
 }
 h1 {
   margin-bottom: 20pt;
+  font-family: "Roboto Condensed" !important;
 }
