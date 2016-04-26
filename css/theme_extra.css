@@ -382,7 +382,7 @@ div.images {
 }
 
 @media screen and (max-width:768px){
-	span.Reach, span.Navio{
+	span.Reach, span.Navio, span.Navio_plus{
     opacity: 1;
   }
   span.images-2 {
