@@ -328,7 +328,7 @@ nav.stickynav a:hover, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a
 span.Navio {
   display: inline-block;
   margin: 20px;
-  width: 180px;
+  width: 220px;
   height: auto;
   opacity: 0.9;
   position: relative;
@@ -337,7 +337,7 @@ span.Navio {
 span.Navio_plus {
   display: inline-block;
   margin: 20px;
-  width: 180px;
+  width: 220px;
   height: auto;
   opacity: 0.9;
   position: relative;
@@ -346,31 +346,46 @@ span.Navio_plus {
 span.Reach {
   display: inline-block;
   margin: 20px;
-  width: 100px;
+  width: 220px;
   height: auto;
   opacity: 0.9;
   vertical-align: bottom;
 }
 
-.Navio img {
-  width: auto;
+span.ReachRS {
+  display: inline-block;
+  margin: 20px;
+  width: 220px;
   height: auto;
-  margin-bottom: -20px;
+  opacity: 0.9;
+  position: relative;
+}
+
+.Navio img {
+  width: 152px;
+  height: auto;
+  margin-bottom: -10px;
 }
 
 .Navio_plus img {
-  width: 80%;
+  width: 128px;
   height: auto;
   margin-bottom: 11px;
 }
 
 .Reach img {
-  width: 77px;
+  width: 67px;
   height: auto;
   margin-bottom: 11px;
 }
 
-span.Reach:hover, span.Navio:hover, span.Navio_plus:hover{
+.ReachRS img {
+  width: auto;
+  height: auto;
+  margin-bottom: 7px;
+}
+
+span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover{
   opacity: 1;
 }
 
@@ -382,7 +397,7 @@ div.images {
 }
 
 @media screen and (max-width:768px){
-	span.Reach, span.Navio, span.Navio_plus{
+	span.Reach, span.Navio, span.Navio_plus, span.ReachRS{
     opacity: 1;
   }
   span.images-2 {
