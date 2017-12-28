@@ -361,6 +361,15 @@ span.ReachRS {
   position: relative;
 }
 
+span.Edge {
+  display: inline-block;
+  margin: 20px;
+  width: 220px;
+  height: auto;
+  opacity: 0.9;
+  position: relative;
+}
+
 .Navio img {
   width: 152px;
   height: auto;
@@ -385,7 +394,13 @@ span.ReachRS {
   margin-bottom: 7px;
 }
 
-span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover{
+.Edge img {
+  width: auto;
+  height: auto;
+  margin-bottom: 7px;
+}
+
+span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover, span.Edge:hover{
   opacity: 1;
 }
 
@@ -397,7 +412,7 @@ div.images {
 }
 
 @media screen and (max-width:768px){
-	span.Reach, span.Navio, span.Navio_plus, span.ReachRS{
+	span.Reach, span.Navio, span.Navio_plus, span.ReachRS, span.Edge{
     opacity: 1;
   }
   span.images-2 {
