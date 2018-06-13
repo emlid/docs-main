@@ -352,6 +352,15 @@ span.Reach {
   vertical-align: bottom;
 }
 
+span.Reachm {
+  display: inline-block;
+  margin: 20px;
+  width: 220px;
+  height: auto;
+  opacity: 0.9;
+  vertical-align: bottom;
+}
+
 span.ReachRS {
   display: inline-block;
   margin: 20px;
@@ -384,6 +393,12 @@ span.Edge {
 
 .Reach img {
   width: 67px;
+  height: auto;
+  margin-bottom: 11px;
+}
+
+.Reachm img {
+  width: 110px;
   height: auto;
   margin-bottom: 11px;
 }
