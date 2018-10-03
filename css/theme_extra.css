@@ -415,7 +415,7 @@ span.Edge {
   margin-bottom: 7px;
 }
 
-span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover, span.Edge:hover{
+span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover, span.Edge:hover, span.Reachm:hover {
   opacity: 1;
 }
 
