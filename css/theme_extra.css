@@ -231,7 +231,7 @@ text-decoration: none;
 }
 .horizontal-menu {
 margin: 0;
-margin-top: 6px;
+margin-top: -2px;
 padding: 0;
 padding-right: 125px;
 float: right;
