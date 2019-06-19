@@ -2,6 +2,21 @@
 /*
  * Tweak the overal size to better match RTD.
  */
+ @font-face {
+     font-family: "GothamProMedium";
+     src: url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.eot");
+     src: url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+     url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
+     url("https://emlid.com/wp-content/themes/flatshop/fonts/GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
+     font-style: normal;
+     font-weight: normal;
+     font-display: swap;
+ }
+
+ html {
+     overflow-x: initial;
+ }
+
 body {
     left: 0;
     font-size: 90%;
@@ -9,10 +24,12 @@ body {
 }
 
 h3, h4, h5, h6 {
-    color: #2980b9;
+    color: #333333;
     font-weight: 300;
-    font-family: "Roboto Condensed" !important;
+    font-family: "GothamProMedium" !important;
 }
+
+
 
 /*
  * Sphinx doesn't have support for section dividers like we do in
@@ -328,16 +345,17 @@ nav.stickynav a:hover, .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a
 span.Navio {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   position: relative;
 }
 
+
 span.Navio_plus {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   position: relative;
@@ -346,7 +364,7 @@ span.Navio_plus {
 span.Reach {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   vertical-align: bottom;
@@ -355,7 +373,7 @@ span.Reach {
 span.Reachm {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   vertical-align: bottom;
@@ -364,7 +382,16 @@ span.Reachm {
 span.ReachRS {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
+  height: auto;
+  opacity: 0.9;
+  position: relative;
+}
+
+span.ReachRS2 {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   position: relative;
@@ -373,61 +400,69 @@ span.ReachRS {
 span.Edge {
   display: inline-block;
   margin: 20px;
-  width: 220px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
   position: relative;
 }
 
 .Navio img {
-  width: 152px;
+  width: 220px;
   height: auto;
-  margin-bottom: -10px;
+  margin-bottom: 11px;
 }
 
 .Navio_plus img {
-  width: 128px;
+  width: 220px;
   height: auto;
   margin-bottom: 11px;
 }
 
 .Reach img {
-  width: 67px;
+  width: 220px;
   height: auto;
   margin-bottom: 11px;
 }
 
 .Reachm img {
-  width: 110px;
+  width: 220px;
   height: auto;
   margin-bottom: 11px;
 }
 
 .ReachRS img {
-  width: auto;
+  width: 220px;
+  height: auto;
+  margin-bottom: 7px;
+}
+
+.ReachRS2 img {
+  width: 220px;
   height: auto;
   margin-bottom: 7px;
 }
 
 .Edge img {
-  width: auto;
+  width: 220px;
   height: auto;
   margin-bottom: 7px;
 }
 
-span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover, span.Edge:hover, span.Reachm:hover {
+span.Reach:hover, span.Navio:hover, span.Navio_plus:hover, span.ReachRS:hover, span.Edge:hover, span.ReachRS2:hover, span.Reachm:hover  {
   opacity: 1;
 }
 
 div.images {
   height: auto;
   position: relative;
-  top: 150px;
+  top: 80px;
   text-align: center;
-}
+	max-width: 1060px;
+  margin: 0 auto;
+  }
 
 @media screen and (max-width:768px){
-	span.Reach, span.Navio, span.Navio_plus, span.ReachRS, span.Edge{
+	span.Reach, span.Navio, span.Navio_plus, span.ReachRS, span.ReachRS2, span.Edge{
     opacity: 1;
   }
   span.images-2 {
@@ -435,11 +470,34 @@ div.images {
   }
 }
 
+@media screen and (max-width:1060px){
+  h1{
+    padding-left: 15px;
+  }
+}
+
 h3 {
   position: relative;
   top: 10pt;
+  font-family: "GothamProMedium" !important;
 }
 h1 {
+  margin: 0 auto;
   margin-bottom: 20pt;
-  font-family: "Roboto Condensed" !important;
+  color: #333333;
+  font-family: "GothamProMedium" !important;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  max-width: 1060px;
+  text-align: left;
+}
+
+span.lead
+{
+  color: #333333;
+  font-family: "GothamProMedium" !important;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.04em;
 }
