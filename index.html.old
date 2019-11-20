@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TTFB5TG');</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" id="themify-google-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300&amp;subset=latin&amp;ver=4.1.1" type="text/css" media="all">
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css?v=3" type="text/css" />
+  <link rel="stylesheet" href="css/highlight.css">
+  <link href="favicon.ico" rel="shortcut icon" />
+  <style>
+    body {font-size: 90%;}
+    pre, code {font-size: 100%;}
+    h3, h4, h5, h6 {color: black; font-weight: 300}
+  </style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTFB5TG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="header_wrapper">
+  <header>
+    <hgroup>
+    <a href="https://emlid.com" title="Emlid"><img id='site-logo' src='https://emlid.com/wp-content/uploads/2017/06/400pxwidetransparentbg.png' alt='Emlid'></a>
+    <nav class="horizontal-menu-wrap">
+      <ul id="horizontal-menu" class="horizontal-menu">
+        <li><a href="https://emlid.com/reachrs2">REACH RS2</a></li>
+        <li><a href="https://emlid.com/reachrs">REACH RS+</a></li>
+        <li><a href="https://emlid.com/reach">REACH M+</a></li>
+        <li><a href="https://emlid.com/navio">NAVIO2</a></li>
+        <li><a href="https://store.emlid.com">STORE</a></li>
+        <li><a href="https://emlid.com/blog/">BLOG</a></li>
+        <li><a href="https://community.emlid.com/">FORUM</a></li>
+        <li class="current-menu-item"><a href="https://docs.emlid.com">DOCS</a></li>
+      </ul>
+    </nav>
+    </hgroup>
+  </header>
+</div>
+
+
+<div class='images'>
+  <h1>
+    <span class='lead'>DOCS</span>
+    <br>
+    Choose your device
+  </h1><br>
+  <span class='ReachRS2'>
+    <a href='reachrs2/'><img src="img/ReachRS2.png">
+    <h3>Reach RS2</h3></a>
+  </span>
+  <span class='ReachRS'>
+    <a href='reachrs/'><img src="img/ReachRS.png">
+    <h3>Reach RS/RS+</h3></a>
+  </span>
+ <span class='Reachm'>
+    <a href='reachm-plus/'><img src="img/Reachm-plus.png">
+    <h3>Reach M+</h3></a>
+  </span>
+  <span class='Reach'>
+    <a href='reach/'><img src="img/Reach_top copy.png">
+    <h3>Reach RTK</h3></a>
+  </span>
+  <span class='Edge'>
+    <a href='edge/'><img src='img/edge.png'>
+    <h3>Edge</h3></a>
+  </span>
+  <span class='Navio'>
+    <a href='navio2/'><img src='img/Navio2WithPaspberryPi.png'>
+    <h3>Navio2</h3></a>
+  </span>
+
+</div>
+</body>
