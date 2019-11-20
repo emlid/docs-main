@@ -1,1 +1,1 @@
-< ?php header("Location: https://emlid.com/docs/"); ?>
+<?php header("Location: https://emlid.com/docs/"); ?>
